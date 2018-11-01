@@ -1,0 +1,23 @@
+{
+  "name": "address-locator-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alt-locator/address-locator-node.git"
+  },
+  "author": "Craig Nishina <craig.nishina@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alt-locator/address-locator-node/issues"
+  },
+  "homepage": "https://github.com/alt-locator/address-locator-node#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.2",
+    "typescript": "^3.1.5"
+  }
+}
