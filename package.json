@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "jasmine": "jasmine",
+    "test": "tsc && jasmine JASMINE_CONFIG_PATH=spec/support/jasmine.json",
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,14 @@
   },
   "homepage": "https://github.com/alt-locator/address-locator-node#readme",
   "devDependencies": {
+    "@types/jasmine": "^2.8.9",
+    "@types/loglevel": "^1.5.3",
     "@types/node": "^10.12.2",
+    "jasmine": "^3.3.0",
     "typescript": "^3.1.5"
+  },
+  "dependencies": {
+    "firebase-admin": "^6.1.0",
+    "loglevel": "^1.6.1"
   }
 }
