@@ -2,7 +2,9 @@
   "name": "address-locator-node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "bin": {
+    "address-locator-node": "bin/alt"
+  },
   "scripts": {
     "jasmine": "jasmine",
     "test": "tsc && jasmine JASMINE_CONFIG_PATH=spec/support/jasmine.json",
@@ -22,11 +24,14 @@
     "@types/jasmine": "^2.8.9",
     "@types/loglevel": "^1.5.3",
     "@types/node": "^10.12.2",
+    "@types/yargs": "^12.0.1",
     "jasmine": "^3.3.0",
     "typescript": "^3.1.5"
   },
   "dependencies": {
     "firebase-admin": "^6.1.0",
-    "loglevel": "^1.6.1"
+    "loglevel": "^1.6.1",
+    "moment": "^2.22.2",
+    "yargs": "^12.0.2"
   }
 }

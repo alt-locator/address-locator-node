@@ -2,7 +2,7 @@ import * as firebaseAdmin from 'firebase-admin';
 import * as loglevel from 'loglevel';
 import {Location} from './location';
 
-const log = loglevel.getLogger('address-locator');
+const log = loglevel.getLogger('address-locator-node');
 
 export class FireStore {
   database: firebaseAdmin.database.Database;
